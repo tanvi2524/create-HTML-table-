@@ -1,0 +1,55 @@
+<!-- Lab 2: Border Styles using CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Page Title and Styling -->
+  <meta charset="UTF-8">
+  <title>Border Styles Demo</title>
+  <style>
+    /* Body styling */
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+
+    /* Common paragraph styling */
+    p {
+      width: 300px;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #e6f0ff;
+    }
+
+    /* Border style classes */
+    .dotted { border: 2px dotted black; }
+    .dashed { border: 2px dashed black; }
+    .solid  { border: 2px solid black; }
+    .double { border: 4px double black; }
+    .groove { border: 4px groove black; }
+    .ridge  { border: 4px ridge black; }
+    .outset { border: 4px outset black; }
+
+    /* Mixed border styles */
+    .mix {
+      border-top: 2px dotted black;
+      border-right: 2px dashed black;
+      border-bottom: 2px solid black;
+      border-left: 2px double black;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Paragraphs with various border styles -->
+  <p class="dotted">This is a dotted Para</p>
+  <p class="dashed">This is a dashed Para</p>
+  <p class="solid">This is a solid Para</p>
+  <p class="double">This is a double Para</p>
+  <p class="groove">This is a groove Para</p>
+  <p class="ridge">This is a ridge Para</p>
+  <p class="outset">This is a outset Para</p>
+  <p class="mix">This is a mix Para</p>
+
+</body>
+</html>
